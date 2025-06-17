@@ -1,0 +1,5 @@
+3D crack prediction
+To achieve accurate 3D crack prediction for TCB electrodes, we developed the PA-CVAE model and the PA-RePointNet model.PA-CVAE solves the problem of data scarcity by facilitating the generation of crack data through the positional attention force (PA).PA-RePointNet uses the point cloud and the PA, which allows for accurate prediction of the crack point cloud.Three folders are provided, datasets, PA-CVAE current generation model and PA-RePoint point cloud prediction model. The datasets contains current data and point cloud data at different initial temperatures. The current data will be entered into the main_cvae_pam.py file under the PA-CVAE model file. The generated current data will be fed into the simulation model to replace the initial currents to get the updated PHILSM point cloud data to get the philsm_dataset. philsm_dataset will be fed into the main file under the PA-RePoint model folder.
+
+
+https://github.com/rqy2001/Thermal-compression-bonding.git
