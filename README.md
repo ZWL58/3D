@@ -1,4 +1,4 @@
-# 3D crack predictionAdd commentMore actions
+# 3D crack prediction
 To achieve accurate 3D crack prediction for thermal compression bondinh (TCB) electrodes, we developed the PA-CVAE model and the PA-RePointNet model.PA-CVAE solves the problem of data scarcity by facilitating the generation of crack data through the positional attention force (PA).PA-RePointNet uses the point cloud and the PA, which allows for accurate prediction of the crack point cloud.
 ## Requirements
 This project is constructed based on the following environment and libraries. To ensure the program runs correctly, please verify that your development environment aligns with the specified configuration listed below:
